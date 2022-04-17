@@ -9,7 +9,8 @@ public class helloWorld {
     @RequestMapping("/")
     public String holaMundo() {
         int b = 3;
-        return "Hola Mundo, soy una aplicacion web super simple: " + (b + 4);
+        int c = 1;
+        return "Hola Mundo, soy una aplicacion web super simple: " + (b + 4 - c);
     }
 
 }
