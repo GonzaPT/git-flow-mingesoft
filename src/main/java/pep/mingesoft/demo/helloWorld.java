@@ -11,7 +11,7 @@ public class helloWorld {
                 int b = 3;
                 int c = 6;
                 String var = " Version";
-                return "Hola Mundo, soy una aplicacion web super simple: " + (b + c * 3) + var;
+                return "Hola Chile, soy una aplicacion web super simple: " + (b + c * 3) + var;
         }
 
 }
